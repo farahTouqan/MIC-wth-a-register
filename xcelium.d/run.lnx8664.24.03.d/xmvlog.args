@@ -1,0 +1,29 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.24.03.d
+-RUNMODE
+-sv
+arbiter.sv
+controller.sv
+fifo.sv
+memory.sv
+mic.sv
+mic_pkg.sv
+mic_top.sv
+mux.sv
+register.sv
+mic_dut.sv
+tb_mic_reg.sv
+-CDSLIB
+./xcelium.d/run.lnx8664.24.03.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.24.03.d/hdlrun.var
+-no_analogsolver
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.24.03.d/xllibs
+-ALLOWUNBOUND

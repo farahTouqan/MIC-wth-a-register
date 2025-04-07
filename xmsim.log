@@ -1,0 +1,111 @@
+xmsim(64): 24.03-s007: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+xcelium> run
+[MEM] Initialized with DEPTH=128, WIDTH=32
+
+Starting MIC Testbench
+Configuration: NREQS=4, MWIDTH=32, AWIDTH=7
+[10000] Reset released
+
+=== TEST CASE 1: Single Requester Write/Read ===
+xmsim: *E,ERRSEV (./tb_mic_reg.sv,46): (time 1065 NS).
+tb_mic_reg.write_op.write_check
+[1065000] WRITE FAILED: Addr=0x10 Expected=0xa5a5a5a5 Actual=0x00000000
+[ARB 1085000] Grant to req 0 (FIFO empty: 0)
+[MEM 1095000] WRITE: Addr=0x10 Data=0xa5a5a5a5
+[MIC 1095000] Memory Write: Addr=0x10 Data=0xa5a5a5a5
+[MIC 1105000] Memory Read: Addr=0x10
+[REG 1115000] CAPTURED: Data=0xa5a5a5a5
+[MIC 1115000] Memory Read: Addr=0x10
+[MIC 1115000] Read Data Valid: Data=0xa5a5a5a5
+-------------------------------------
+[1125000] READ TEST: Addr=0x10
+Memory Content: 0xa5a5a5a5
+Register Output: 0xa5a5a5a5
+Expected Value: 0xa5a5a5a5
+STATUS: PASS - Data matches
+-------------------------------------
+
+=== TEST CASE 2: Multiple Requesters ===
+[REG 1125000] CAPTURED: Data=0xa5a5a5a5
+[MIC 1125000] Read Data Valid: Data=0xa5a5a5a5
+[ARB 1145000] Grant to req 1 (FIFO empty: 0)
+[MEM 1155000] WRITE: Addr=0x20 Data=0x55aa55aa
+[MIC 1155000] Memory Write: Addr=0x20 Data=0x55aa55aa
+[1155000] WRITE CONFIRMED: Addr=0x20 Data=0x55aa55aa
+[MEM 1165000] WRITE: Addr=0x20 Data=0x55aa55aa
+[MIC 1165000] Memory Write: Addr=0x20 Data=0x55aa55aa
+xmsim: *E,ERRSEV (./tb_mic_reg.sv,46): (time 2165 NS).
+tb_mic_reg.write_op.write_check
+[2165000] WRITE FAILED: Addr=0x30 Expected=0x12345678 Actual=0x00000000
+[ARB 2185000] Grant to req 1 (FIFO empty: 0)
+[MIC 2195000] Memory Read: Addr=0x20
+[REG 2205000] CAPTURED: Data=0x55aa55aa
+[MIC 2205000] Memory Read: Addr=0x20
+[MIC 2205000] Read Data Valid: Data=0x55aa55aa
+[REG 2215000] CAPTURED: Data=0x55aa55aa
+[MIC 2215000] Read Data Valid: Data=0x55aa55aa
+-------------------------------------
+[2225000] READ TEST: Addr=0x20
+Memory Content: 0x55aa55aa
+Register Output: 0x55aa55aa
+Expected Value: 0x55aa55aa
+STATUS: PASS - Data matches
+-------------------------------------
+[ARB 2245000] Grant to req 2 (FIFO empty: 0)
+[MEM 2255000] WRITE: Addr=0x30 Data=0x12345678
+[MIC 2255000] Memory Write: Addr=0x30 Data=0x12345678
+[MIC 2265000] Memory Read: Addr=0x30
+[REG 2275000] CAPTURED: Data=0x12345678
+[MIC 2275000] Memory Read: Addr=0x30
+[MIC 2275000] Read Data Valid: Data=0x12345678
+-------------------------------------
+[2285000] READ TEST: Addr=0x30
+Memory Content: 0x12345678
+Register Output: 0x12345678
+Expected Value: 0x12345678
+STATUS: PASS - Data matches
+-------------------------------------
+
+=== TEST CASE 3: Boundary Address Check ===
+[REG 2285000] CAPTURED: Data=0x12345678
+[MIC 2285000] Read Data Valid: Data=0x12345678
+[ARB 2305000] Grant to req 0 (FIFO empty: 0)
+[MEM 2315000] WRITE: Addr=0x00 Data=0xdeadbeef
+[MIC 2315000] Memory Write: Addr=0x00 Data=0xdeadbeef
+[2315000] WRITE CONFIRMED: Addr=0x00 Data=0xdeadbeef
+[MEM 2325000] WRITE: Addr=0x00 Data=0xdeadbeef
+[MIC 2325000] Memory Write: Addr=0x00 Data=0xdeadbeef
+xmsim: *E,ERRSEV (./tb_mic_reg.sv,46): (time 3325 NS).
+tb_mic_reg.write_op.write_check
+[3325000] WRITE FAILED: Addr=0x7f Expected=0xcafebabe Actual=0x00000000
+[ARB 3345000] Grant to req 0 (FIFO empty: 0)
+[MIC 3355000] Memory Read: Addr=0x00
+[REG 3365000] CAPTURED: Data=0xdeadbeef
+[MIC 3365000] Read Data Valid: Data=0xdeadbeef
+-------------------------------------
+[3385000] READ TEST: Addr=0x00
+Memory Content: 0xdeadbeef
+Register Output: 0xdeadbeef
+Expected Value: 0xdeadbeef
+STATUS: PASS - Data matches
+-------------------------------------
+[ARB 3405000] Grant to req 1 (FIFO empty: 0)
+[MEM 3415000] WRITE: Addr=0x7f Data=0xcafebabe
+[MIC 3415000] Memory Write: Addr=0x7f Data=0xcafebabe
+[MIC 3425000] Memory Read: Addr=0x7f
+[REG 3435000] CAPTURED: Data=0xcafebabe
+[MIC 3435000] Read Data Valid: Data=0xcafebabe
+-------------------------------------
+[3445000] READ TEST: Addr=0x7f
+Memory Content: 0xcafebabe
+Register Output: 0xcafebabe
+Expected Value: 0xcafebabe
+STATUS: PASS - Data matches
+-------------------------------------
+
+=== TEST SUMMARY ===
+Successful operations: 5
+Failed operations: 0
+Simulation complete via $finish(1) at time 3445 NS + 0
+./tb_mic_reg.sv:124     $finish;
+xcelium> exit

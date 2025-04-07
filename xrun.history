@@ -1,0 +1,66 @@
+#e1(06Apr2025:14:52:32): source ./xcelium.d/env.d/env.history.06Apr2025_14_52_32
+s1(06Apr2025:14:52:32):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e2(06Apr2025:14:56:08): source ./xcelium.d/env.d/env.history.06Apr2025_14_56_08
+s2(06Apr2025:14:56:08):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e3(06Apr2025:14:57:32): source ./xcelium.d/env.d/env.history.06Apr2025_14_57_32
+s3(06Apr2025:14:57:32):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e4(06Apr2025:15:04:11): source ./xcelium.d/env.d/env.history.06Apr2025_15_04_11
+s4(06Apr2025:15:04:11):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e5(06Apr2025:15:18:54): source ./xcelium.d/env.d/env.history.06Apr2025_15_18_54
+s5(06Apr2025:15:18:54):  xrun -64bit -sv -access +rwc -linedebug arbiter.sv controller.sv fifo.sv memory.sv mic_dut.sv mic_pkg.sv mic.sv mic_top.sv mux.sv register.sv tb_mic_reg.sv 
+#e6(06Apr2025:15:19:04): source ./xcelium.d/env.d/env.history.06Apr2025_15_19_04
+s6(06Apr2025:15:19:04):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e7(06Apr2025:15:29:37): source ./xcelium.d/env.d/env.history.06Apr2025_15_29_37
+s7(06Apr2025:15:29:37):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e8(06Apr2025:15:30:07): source ./xcelium.d/env.d/env.history.06Apr2025_15_30_07
+s8(06Apr2025:15:30:07):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e9(06Apr2025:15:41:17): source ./xcelium.d/env.d/env.history.06Apr2025_15_41_17
+s9(06Apr2025:15:41:17):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e10(06Apr2025:15:50:40): source ./xcelium.d/env.d/env.history.06Apr2025_15_50_40
+s10(06Apr2025:15:50:40):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e11(07Apr2025:10:08:11): source ./xcelium.d/env.d/env.history.07Apr2025_10_08_11
+s11(07Apr2025:10:08:11):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e12(07Apr2025:10:13:47): source ./xcelium.d/env.d/env.history.07Apr2025_10_13_47
+s12(07Apr2025:10:13:47):  xrun -64bit -sv -access +rwc -linedebug arbiter.sv controller.sv fifo.sv memory.sv mic_dut.sv mic_pkg.sv mic.sv mic_top.sv mux.sv register.sv tb_mic_reg.sv 
+#e13(07Apr2025:10:15:57): source ./xcelium.d/env.d/env.history.07Apr2025_10_15_57
+s13(07Apr2025:10:15:57):  xrun -64bit -sv -access +rwc -linedebug arbiter.sv controller.sv fifo.sv memory.sv mic_dut.sv mic_pkg.sv mic.sv mic_top.sv mux.sv register.sv tb_mic_reg.sv 
+#e14(07Apr2025:10:16:26): source ./xcelium.d/env.d/env.history.07Apr2025_10_16_26
+s14(07Apr2025:10:16:26):  xrun -64bit -sv -access +rwc -linedebug arbiter.sv controller.sv fifo.sv memory.sv mic_dut.sv mic_pkg.sv mic.sv mic_top.sv mux.sv register.sv tb_mic_reg.sv 
+#e15(07Apr2025:10:17:14): source ./xcelium.d/env.d/env.history.07Apr2025_10_17_14
+s15(07Apr2025:10:17:14):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e16(07Apr2025:10:34:38): source ./xcelium.d/env.d/env.history.07Apr2025_10_34_38
+s16(07Apr2025:10:34:38):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e17(07Apr2025:10:45:30): source ./xcelium.d/env.d/env.history.07Apr2025_10_45_30
+s17(07Apr2025:10:45:30):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e18(07Apr2025:10:55:03): source ./xcelium.d/env.d/env.history.07Apr2025_10_55_03
+s18(07Apr2025:10:55:03):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e19(07Apr2025:11:02:40): source ./xcelium.d/env.d/env.history.07Apr2025_11_02_40
+s19(07Apr2025:11:02:40):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e20(07Apr2025:11:07:21): source ./xcelium.d/env.d/env.history.07Apr2025_11_07_21
+s20(07Apr2025:11:07:21):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e21(07Apr2025:11:10:20): source ./xcelium.d/env.d/env.history.07Apr2025_11_10_20
+s21(07Apr2025:11:10:20):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e22(07Apr2025:11:14:51): source ./xcelium.d/env.d/env.history.07Apr2025_11_14_51
+s22(07Apr2025:11:14:51):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e23(07Apr2025:11:26:00): source ./xcelium.d/env.d/env.history.07Apr2025_11_26_00
+s23(07Apr2025:11:26:00):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e24(07Apr2025:11:37:53): source ./xcelium.d/env.d/env.history.07Apr2025_11_37_53
+s24(07Apr2025:11:37:53):  xrun -sv mic_pkg.sv arbiter.sv controller.sv fifo.sv memory.sv mux.sv register.sv mic.sv mic_top.sv tb_mic_reg.sv 
+#e25(07Apr2025:12:50:38): source ./xcelium.d/env.d/env.history.07Apr2025_12_50_38
+s25(07Apr2025:12:50:38):  xrun -sv -64bit -access +rwc -timescale 1ns/100ps -compile -l compile.log arbiter.sv controller.sv fifo.sv memory.sv mic.sv mic_pkg.sv mic_top.sv mux.sv read_register.sv tb_mic_reg.sv 
+#e26(07Apr2025:12:51:00): source ./xcelium.d/env.d/env.history.07Apr2025_12_51_00
+s26(07Apr2025:12:51:00):  xrun -sv -64bit -access +rwc -timescale 1ns/100ps -compile -l compile.log arbiter.sv controller.sv fifo.sv memory.sv mic.sv mic_pkg.sv mic_top.sv mux.sv register.sv tb_mic_reg.sv 
+#e27(07Apr2025:12:54:04): source ./xcelium.d/env.d/env.history.07Apr2025_12_54_04
+s27(07Apr2025:12:54:04):  xrun -sv -64bit -access +rwc -compile -l compile.log arbiter.sv controller.sv fifo.sv memory.sv mic.sv mic_pkg.sv mic_top.sv mux.sv register.sv tb_mic_reg.sv 
+#e28(07Apr2025:12:54:52): source ./xcelium.d/env.d/env.history.07Apr2025_12_54_52
+s28(07Apr2025:12:54:52):  xrun -sv -64bit -access +rwc -compile -l compile.log arbiter.sv controller.sv fifo.sv memory.sv mic.sv mic_pkg.sv mic_top.sv mux.sv register.sv tb_mic_reg.sv 
+#e29(07Apr2025:13:00:41): source ./xcelium.d/env.d/env.history.07Apr2025_13_00_41
+s29(07Apr2025:13:00:41):  xrun -sv -64bit -access +rwc -compile -l compile.log arbiter.sv controller.sv fifo.sv memory.sv mic.sv mic_dut.sv mic_pkg.sv mic_top.sv mux.sv register.sv tb_mic_reg.sv 
+#e30(07Apr2025:13:01:58): source ./xcelium.d/env.d/env.history.07Apr2025_13_01_58
+s30(07Apr2025:13:01:58):  xrun -sv -64bit -access +rwc -compile -l compile.log arbiter.sv controller.sv fifo.sv memory.sv mic.sv mic_pkg.sv mic_top.sv mux.sv register.sv tb_mic_reg.sv 
+#e31(07Apr2025:13:02:43): source ./xcelium.d/env.d/env.history.07Apr2025_13_02_43
+s31(07Apr2025:13:02:43):  xrun -sv -64bit -access +rwc -compile -l compile.log arbiter.sv controller.sv fifo.sv memory.sv mic.sv mic_pkg.sv mic_top.sv mic_dut.sv mux.sv register.sv tb_mic_reg.sv 
+#e32(07Apr2025:13:05:19): source ./xcelium.d/env.d/env.history.07Apr2025_13_05_19
+s32(07Apr2025:13:05:19):  xrun -sv -64bit -access +rwc -compile -l compile.log arbiter.sv controller.sv fifo.sv memory.sv mic.sv mic_pkg.sv mic_top.sv mux.sv register.sv mic_dut.sv tb_mic_reg.sv 
+#e33(07Apr2025:13:05:59): source ./xcelium.d/env.d/env.history.07Apr2025_13_05_59
+s33(07Apr2025:13:05:59):  xrun -sv -64bit -access +rwc -compile arbiter.sv controller.sv fifo.sv memory.sv mic.sv mic_pkg.sv mic_top.sv mux.sv register.sv mic_dut.sv tb_mic_reg.sv 

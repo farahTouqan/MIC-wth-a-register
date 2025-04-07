@@ -1,0 +1,60 @@
+xmvlog(64): 24.03-s007: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+import mic_pkg::*;
+             |
+xmvlog: *E,MULPAK (mic_top.sv,3|13): Multiple (2) packages named "mic_pkg" were found in the searched libraries: 
+		-> found verilog_package worklib.mic_pkg:verilog_package (VST)
+		-> found verilog_package worklib.mic_pkg:sv (VST).
+import mic_pkg::*;
+             |
+xmvlog: *E,NOPBIND (mic_top.sv,3|13): Package mic_pkg could not be bound.
+    input  wire logic [ NREQS-1:0] req_valid,
+                            |
+xmvlog: *E,UNDIDN (mic_top.sv,8|28): 'NREQS': undeclared identifier [12.5(IEEE)].
+    input  wire logic [RWIDTH-1:0] req_data [0:NREQS-1],
+                                                   |
+xmvlog: *E,UNDIDN (mic_top.sv,9|51): 'NREQS': undeclared identifier [12.5(IEEE)].
+    input  wire logic [RWIDTH-1:0] req_data [0:NREQS-1],
+                            |
+xmvlog: *E,UNDIDN (mic_top.sv,9|28): 'RWIDTH': undeclared identifier [12.5(IEEE)].
+    output wire logic [ NREQS-1:0] fifo_full,
+                            |
+xmvlog: *E,UNDIDN (mic_top.sv,10|28): 'NREQS': undeclared identifier [12.5(IEEE)].
+    output wire logic [MWIDTH-1:0] reg_out
+                            |
+xmvlog: *E,UNDIDN (mic_top.sv,11|28): 'MWIDTH': undeclared identifier [12.5(IEEE)].
+  wire [NREQS-1:0] read_valid;
+            |
+xmvlog: *E,UNDIDN (mic_top.sv,14|12): 'NREQS': undeclared identifier [12.5(IEEE)].
+  wire [AWIDTH-1:0] mem_addr;
+             |
+xmvlog: *E,UNDIDN (mic_top.sv,15|13): 'AWIDTH': undeclared identifier [12.5(IEEE)].
+  wire [MWIDTH-1:0] mem_rdata;
+             |
+xmvlog: *E,UNDIDN (mic_top.sv,16|13): 'MWIDTH': undeclared identifier [12.5(IEEE)].
+      .NREQS (NREQS),
+                  |
+xmvlog: *E,UNDIDN (mic_top.sv,20|18): 'NREQS': undeclared identifier [12.5(IEEE)].
+      .PSIZE (PSIZE),
+                  |
+xmvlog: *E,UNDIDN (mic_top.sv,21|18): 'PSIZE': undeclared identifier [12.5(IEEE)].
+      .MDEPTH(MDEPTH),
+                   |
+xmvlog: *E,UNDIDN (mic_top.sv,22|19): 'MDEPTH': undeclared identifier [12.5(IEEE)].
+      .AWIDTH(AWIDTH),
+                   |
+xmvlog: *E,UNDIDN (mic_top.sv,23|19): 'AWIDTH': undeclared identifier [12.5(IEEE)].
+      .MWIDTH(MWIDTH),
+                   |
+xmvlog: *E,UNDIDN (mic_top.sv,24|19): 'MWIDTH': undeclared identifier [12.5(IEEE)].
+      .RWIDTH(RWIDTH),
+                   |
+xmvlog: *E,UNDIDN (mic_top.sv,25|19): 'RWIDTH': undeclared identifier [12.5(IEEE)].
+      .RDEPTH(RDEPTH),
+                   |
+xmvlog: *E,UNDIDN (mic_top.sv,26|19): 'RDEPTH': undeclared identifier [12.5(IEEE)].
+      .RBITS (RBITS)
+                  |
+xmvlog: *E,UNDIDN (mic_top.sv,27|18): 'RBITS': undeclared identifier [12.5(IEEE)].
+      .WIDTH(MWIDTH)
+                  |
+xmvlog: *E,UNDIDN (mic_top.sv,41|18): 'MWIDTH': undeclared identifier [12.5(IEEE)].

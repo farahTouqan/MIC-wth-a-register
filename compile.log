@@ -1,0 +1,20 @@
+xrun(64): 24.03-s007: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.03-s007: Started on Apr 07, 2025 at 13:46:09 EET
+xrun
+	-sv
+	-64bit
+	-access +rwc
+	-compile
+	-l compile.log
+	arbiter.sv
+	controller.sv
+	fifo.sv
+	memory.sv
+	mic.sv
+	mic_pkg.sv
+	mic_top.sv
+	mux.sv
+	register.sv
+	mic_dut.sv
+	tb_mic_reg.sv
+TOOL:	xrun(64)	24.03-s007: Exiting on Apr 07, 2025 at 13:46:09 EET  (total: 00:00:00)

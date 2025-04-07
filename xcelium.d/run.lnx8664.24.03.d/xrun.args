@@ -1,0 +1,22 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-sv
+-64bit
+-access
++rwc
+-compile
+-l
+compile.log
+arbiter.sv
+controller.sv
+fifo.sv
+memory.sv
+mic.sv
+mic_pkg.sv
+mic_top.sv
+mux.sv
+register.sv
+mic_dut.sv
+tb_mic_reg.sv

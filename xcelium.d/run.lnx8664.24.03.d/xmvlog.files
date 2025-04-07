@@ -1,0 +1,15 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/ftouqan/MicWithReg/arbiter.sv
+/home/ftouqan/MicWithReg/controller.sv
+/home/ftouqan/MicWithReg/fifo.sv
+/home/ftouqan/MicWithReg/memory.sv
+/home/ftouqan/MicWithReg/mic.sv
+/home/ftouqan/MicWithReg/mic_pkg.sv
+/home/ftouqan/MicWithReg/mic_top.sv
+/home/ftouqan/MicWithReg/mux.sv
+/home/ftouqan/MicWithReg/register.sv
+/home/ftouqan/MicWithReg/mic_dut.sv
+/home/ftouqan/MicWithReg/tb_mic_reg.sv

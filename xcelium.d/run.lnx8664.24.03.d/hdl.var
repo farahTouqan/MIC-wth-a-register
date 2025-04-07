@@ -1,0 +1,6 @@
+define XMSIMRC	( /usr/cadence/installs/xcelium/XCELIUM2403/tools/xcelium/files/xmsimrc, ~/.xmsimrc )
+define AMSRC	( /usr/cadence/installs/xcelium/XCELIUM2403/tools/xcelium/files/amsrc, ~/.amsrc )
+include ./hdlrun.var
+define SNAPSHOT worklib.mic_dut:sv
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP ( + => worklib )

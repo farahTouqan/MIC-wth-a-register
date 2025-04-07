@@ -1,0 +1,9 @@
+xmelab(64): 24.03-s007: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+xmelab: *W,CUSRCH: Resolved design unit 'top' at 'dut' to 'worklib.top:sv' through a global search of all libraries.
+xmelab: *W,CUSRCH: Resolved design unit 'mic' at 'mic_inst' to 'worklib.mic:sv' through a global search of all libraries.
+xmelab: *W,CUSRCH: Resolved design unit 'arbiter' at 'u_arbiter' to 'worklib.arbiter:sv' through a global search of all libraries.
+xmelab: *W,CUSRCH: Resolved design unit 'multiplexor' at 'u_mux' to 'worklib.multiplexor:sv' through a global search of all libraries.
+xmelab: *W,CUSRCH: Resolved design unit 'controller' at 'u_controller' to 'worklib.controller:sv' through a global search of all libraries.
+xmelab: *W,CUSRCH: Resolved design unit 'memory' at 'u_memory' to 'worklib.memory:sv' through a global search of all libraries.
+xmelab: *W,CUSRCH: Resolved design unit 'read_register' at 'reg_inst' to 'worklib.read_register:sv' through a global search of all libraries.
+xmelab: *W,CUSRCH: Resolved design unit 'fifo' at 'u_fifo' to 'worklib.fifo:sv' through a global search of all libraries.

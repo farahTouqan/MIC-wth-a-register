@@ -1,0 +1,11 @@
+1744018598 /home/ftouqan/MicWithReg/mux.sv
+1744013425 /home/ftouqan/MicWithReg/register.sv
+1744018574 /home/ftouqan/MicWithReg/mic.sv
+1744013233 /home/ftouqan/MicWithReg/arbiter.sv
+1744018247 /home/ftouqan/MicWithReg/mic_top.sv
+1743929951 /home/ftouqan/MicWithReg/mic_pkg.sv
+1744018668 /home/ftouqan/MicWithReg/tb_mic_reg.sv
+1744018117 /home/ftouqan/MicWithReg/controller.sv
+1744018112 /home/ftouqan/MicWithReg/fifo.sv
+1744018216 /home/ftouqan/MicWithReg/mic_dut.sv
+1744018190 /home/ftouqan/MicWithReg/memory.sv
