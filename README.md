@@ -45,16 +45,6 @@ If someone doesn’t have a request, the turn skips to the next one.
 - mic_top.sv: Top-level wrapper
 ---
 
-6. Config Parameters 
-  NREQS     Number of requesters (default: 4)    
-  PSIZE     Partition size (default: 20)  
-  MDEPTH    Memory depth (default: NREQS * PSIZE)  
-  AWIDTH    Address width (calculated from MDEPTH)
-  MWIDTH    Memory width  (default: 32)  
-  RWIDTH    Request width (calculated as AWIDTH + MWIDTH + 2)  
-  RDEPTH    FIFO depth  (default: 6)  
-
----
 
 7. Test Cases
 - Single requester read/write: Tests basic write and read operations
