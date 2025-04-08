@@ -30,9 +30,7 @@ If someone doesn’t have a request, the turn skips to the next one.
   When a read operation completes and read_valid is asserted, the read register captures the memory data and holds it stable for the requester.
 
 ---
-4. Request Format & Flow  
-Request Format: {data, addr, read_bit, write_bit}  
-Flow:  
+4. Flow:  
 -Requesters push requests into FIFOs  
 -Arbiter selects one with valid request  
 -Controller triggers memory operation  
